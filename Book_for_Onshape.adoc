@@ -1,0 +1,21 @@
+= Проектирование в Onshape
+Евгений
+:doctype: book
+:docinfo:
+:toc: left
+:toc-title: Оглавление
+:toclevels: 3
+:pagenums:
+:front-cover-image: image::book/cover.jpeg[width=1050,height=1300]
+:icons: font
+:lang: ru
+:source-highlighter: rouge
+:rouge-style: github
+
+include::locale/attributes.adoc[]
+
+<<<
+
+include::courses-onshape.adoc[]
+
+ifdef::backend-pdf[include::index.adoc[]]

@@ -1,0 +1,23 @@
+1. Предварительные установки:
+	1.1. Установка asciidoctor (конвертер в HTML):
+		gem install asciidoctor
+	
+	1.2. Установка asciidoctor-pdf (конвертер в PDF):
+		gem install asciidoctor-pdf
+	
+	1.3. Установка rouge (выделение синтаксиса исходного кода, с помощью Rouge):
+		gem install rouge
+	
+	1.4. Установка pygments (выделение синтаксиса исходного кода, с помощью Pygments):
+		gem install pygments.rb
+	
+	1.5. Установка coderay (выделение синтаксиса исходного кода, с помощью Coderay):
+		gem install coderay
+
+2. Команда конвертирует файл Book_for_Onshape.adoc в HTML формат: 
+asciidoctor -a nofooter=true Book_for_Onshape.adoc
+
+3. Команда конвертирует файл Book_for_Onshape.adoc в PDF формат:
+asciidoctor-pdf --theme theme/my_theme.yml Book_for_Onshape.adoc
+
+4. 

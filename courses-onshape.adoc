@@ -1,0 +1,7 @@
+
+[[_cources_of_onshape]]
+== Курсы по Onshape
+(((Курсы по Onshape)))
+Курсы с официального сайта Onshape.
+
+include::book/courses/branching-and-merging/course-base-branching-and-merging.adoc[]

@@ -1,0 +1,199 @@
+01. Onshape workspaces - Рабочие пространства Onshape
+	What is a workspace? - Что такое рабочее пространство?
+		Key takeaways: - Ключевые моменты:
+			- Working with parts, assemblies, drawings and imported data is all done in workspaces.
+				Работа с деталями, сборками, чертежами и импортированными данными осуществляется в рабочих пространствах.
+			- A single Document can contain several workspaces.
+				Один документ может содержать несколько рабочих пространств.
+			- Workspaces within the same Document are completely independent from one another.
+				Рабочие области внутри одного документа полностью независимы друг от друга.
+			- Workspaces can be treated as sandboxes, where engineers can experiment with new design variations without fear of disrupting other work.
+				Рабочие пространства можно рассматривать как "песочницы", где инженеры могут экспериментировать с новыми вариантами дизайна, не опасаясь нарушить остальную работу.
+		
+		Transcript - Описание
+		
+		Let’s discuss the concept of a Workspace in Onshape.
+		Давайте обсудим концепцию рабочего пространства в Onshape.
+		Everything we’ve done up to this point in Onshape has been done in a single workspace.
+		Все, что мы делали до сих пор в Onshape, было сделано в одном рабочем пространстве.
+		By default, that workspace is named Main.
+		По умолчанию это рабочее пространство называется Main.
+		A workspace in Onshape is where your work is done, creating and editing parts, assemblies, drawings, and importing data.
+		Рабочее пространство в Onshape — это место, где вы выполняете свою работу, создавая и редактируя детали, сборки, чертежи и импортируя данные.
+		This is different from a version, in that a version captures a moment in time of the workspace, that cannot be changed.
+		Это отличается от версии тем, что версия фиксирует момент времени рабочего пространства, который нельзя изменить.
+		You can see the workspace name next to the Document name in the Document toolbar.
+		Имя рабочей области можно увидеть рядом с именем документа на панели инструментов "Документ".
+		You can also see the workspace you are actively working in by viewing the Versions and History graph in the toolbar.
+		Вы также можете увидеть рабочее пространство, в котором вы активно работаете, просмотрев график "Версии и история" на панели инструментов.
+		The workspace is shown with a white dot.
+		Рабочее пространство обозначено белой точкой.
+		You can tell the difference between a workspace and a version by the solid dot in the version graph.
+		Разницу между рабочей областью и версией можно определить по сплошной точке для версий на графике.
+		A white dot indicates a workspace, a solid dot indicates a version.
+		Белая точка обозначает рабочее пространство, сплошная точка обозначает версию.
+		
+		So we’ve established that when you are working in Onshape in a new Document, by default, you are working in a workspace called Main.
+		Итак, мы установили, что когда вы работаете в Onshape с новым документом, по умолчанию вы работаете в рабочем пространстве, которое называется Main.
+		But why is this important?
+		Но почему это важно?
+		It’s important because within a single Onshape Document, you can have multiple workspaces.
+		Это важно, поскольку в одном документе Onshape может быть несколько рабочих пространств.
+		In Onshape, you can branch off of an established version and create a separate workspace.
+		В Onshape вы можете создать ответвление от существующей версии и отдельное рабочее пространство.
+		So why would this be useful?
+		Так почему же это может быть полезно?
+		
+		Imagine that you have an established design that you want to experiment with.
+		Представьте, что у вас есть готовый дизайн, с которым вы хотите поэкспериментировать.
+		It’s easy to branch from an established version into a separate workspace, make all the changes you want, and it does not impact that original branch.
+		Легко ответвиться от готовой версии к отдельному рабочему пространству, внести все необходимые изменения, и это не повлияет на исходную ветку.
+		Think of that separate workspace as a sandbox independent of the original, where you can do anything that you would like.
+		Думайте об этом отдельном рабочем пространстве как о "песочнице", независимой от оригинала, где вы можете делать все, что захотите.
+		Remember these workspaces are NOT like copies of files, any workspace you create belongs and lives within the Document.
+		Помните, что эти рабочие пространства НЕ являются копиями файлов, любое созданное вами рабочее пространство принадлежит Документу и находится в нем.
+		
+		It’s important to point out, these workspaces are independent of one another.
+		Важно отметить, что эти рабочие пространства независимы друг от друга.
+		You can add, remove, or change features, parts, assemblies, drawings, even whole tabs and it does not impact other workspaces.
+		Вы можете добавлять, удалять или изменять элементы, детали, сборки, чертежи и даже целые вкладки, и это не повлияет на другие рабочие пространства.
+		
+		Another scenario to consider would be two engineers who want to experiment with the design at the same time.
+		Другой сценарий, который следует рассмотреть, — это два инженера, которые хотят одновременно поэкспериментировать с конструкцией.
+		They each want to experiment with their own variation so branching with a separate workspace for each engineer gives them an independent place to work and not step on each other’s toes.
+		Каждый из них хочет экспериментировать со своими собственными вариантами, поэтому разделение на отдельные рабочие пространства для каждого инженера дает им независимое место для работы и не мешает друг другу.
+		You can even take the experiments created in separate workspaces and merge them into one.
+		Вы даже можете объединить эксперименты, созданные в отдельных рабочих пространствах, в одно.
+		We’ll be talking about branching and merging in more detail in the future.
+		В будущем мы более подробно поговорим о ветвлении и слиянии.
+	
+	Branches - Ветви
+		Key takeaways - Ключевые моменты: 
+			- Branches are used to create multiple workspaces within the same Document.
+				Ветви используются для создания нескольких рабочих пространств в одном документе.
+			- Branches are not files and they are not copies. They all live in the same Document.
+				Ветви — это не файлы и не копии. Они все находятся в одном Документе.
+			- Branches are completely independent of each other. There are no dependencies or relationships between branches.
+				Ветви полностью независимы друг от друга. Между ветвями нет никаких зависимостей или отношений.
+			- Changes can be merged between branches.
+				Изменения можно объединять между ветками.
+		
+		Transcript - Описание
+		
+		Now that we’ve discussed workspaces, let’s get into a little more detail on what branches are and how they work.
+		Теперь, когда мы обсудили рабочие пространства, давайте немного подробнее рассмотрим, что такое ветви и как они работают.
+		Think of a branch as the creation of a separate workspace within the same Document.
+		Думайте о ветке как о создании отдельного рабочего пространства внутри того же документа.
+		It’s important to point out a branch is not a copy, not a file, and is not separate from the original Document.
+		Важно отметить, что ветвь — это не копия, не файл и она не отделена от исходного документа.
+		A single Document in Onshape can have as many independent branches within it as you would like.
+		Один документ в Onshape может иметь столько независимых ветвей, сколько вам нужно.
+		Each one of these branches acts as a sandbox or separate work environment where your design can be changed and other branches are not impacted.
+		Каждая из этих ветвей действует как "песочница" или отдельная рабочая среда, в которой можно изменять дизайн, не затрагивая другие ветви.
+		
+		A branch typically has a workspace at the end of it, and captures all the changes in that workspace.
+		В конце ветви обычно находится рабочее пространство, в котором фиксируются все изменения.
+		You may create versions on any new branch, just like you would on the Main branch.
+		Вы можете создавать версии в любой новой ветке, так же как и в Main ветке.
+		If you have delete permissions, you can delete a workspace.
+		Если у вас есть разрешения на удаление, вы можете удалить рабочее пространство.
+		This is a permanent action and cannot be undone.
+		Это необратимое действие, и его нельзя отменить.
+		If the branch does not contain any versions, the branch is completely removed. 
+		Если ветка не содержит версий, то ветка полностью удаляется.
+		If the branch contains versions, deleting the workspace caps the branch at the latest version.
+		Если ветка содержит версии, то удаление рабочего пространства ограничивает ветку последней версией.
+		No further edits can take place on the branch.
+		Дальнейшие правки в этой ветке невозможны.
+		Creating branches is explained in the next video.
+		Создание веток объясняется в следующем видео.
+		
+		One last thing to mention about branches is there is no parent-child relationships between branches.
+		Последнее, что следует упомянуть о ветвях, между ветвями нет родительско-дочерних связей.
+		Remember that you’re branching from an established version that is immutable.
+		Помните, что вы отходите от существующей версии, которая неизменна.
+		It cannot be changed.
+		Её нельзя изменить.
+		A change made in one workspace does not propagate to any of the others.
+		Изменения, внесенные в одном рабочем пространстве, не распространяются на другие.
+		
+		Think of a branch as an independent space for an individual or team to experiment with the design without impacting other branches.
+		Думайте о ветке как о независимом пространстве, где отдельный человек или команда могут экспериментировать с дизайном, не влияя на другие ветки.
+		We’ll be discussing creating branches, and even ways to merge branches, in the future.
+		В будущем мы обсудим создание ветвей и даже способы их объединения.
+	
+	Creating a Branch - Создание ветки
+		Key takeaways - Ключевые моменты:
+			- Branches must be created from a version of a Document, not a workspace.
+				Ветви должны создаваться из версии документа, а не рабочего пространства.
+			- Versions can be created within a branch.
+				Версии могут создаваться внутри ветки.
+			- Branches can be created from within another branch.
+				Ветви могут быть созданы внутри другой ветки.
+		
+		Transcript - Описание
+		
+		Now let’s discuss creating a branch.
+		Теперь давайте обсудим создание ветки.
+		The first and most important thing to remember when branching to create a new workspace, is branches must be created from established versions.
+		Первое и самое важное, что следует помнить при создании нового рабочего пространства, ветви должны создаваться из существующих версий.
+		You cannot create a branch from a workspace.
+		Создать ветку из рабочего пространства невозможно.
+		This means if your Document doesn’t already have a version, you must create one.
+		Это означает, что если у вашего документа еще нет версии, вам необходимо ее создать.
+		In this example, I want to branch from this design at its current state.
+		В этом примере я хочу перейти от этого проекта в его текущем состоянии.
+		This Document does not have a version yet, so the first thing to do is create a version.
+		У этого документа пока нет версии, поэтому первое, что нужно сделать, создать версию.
+		To do this click the Create version icon in the toolbar, then name the version and optionally add a description and then click Create.
+		Для этого нажмите значок "Создать версию" на панели инструментов, затем дайте версии имя и (при желании) добавьте описание, а затем нажмите "Создать".
+		
+		Now that the version is created, a branch can be created.
+		Теперь, когда версия создана, можно создать ветку.
+		To do this, right-click the version and click the option to Branch to create workspace...
+		Для этого щелкните правой кнопкой мыши по версии и выберите опцию "Ветвь для создания рабочего пространства".
+		Type in a name and description for your new workspace and click Create.
+		Введите имя и описание нового рабочего пространства и нажмите "Создать".
+		Checking the Open new workspace option automatically opens the new workspace upon its creation.
+		При выборе параметра "Открыть новое рабочее пространство" новое рабочее пространство автоматически открывается после его создания.
+		Onshape then branches from that version with a new workspace.
+		Затем Onshape создает ответвление от этой версии с новым рабочим пространством.
+		
+		The new workspace loads and you are free to make any changes that you would like without impacting other workspaces.
+		Загрузится новое рабочее пространство, и вы сможете вносить любые необходимые изменения, не затрагивая другие рабочие пространства.
+		Now that there are multiple workspaces in the Document.
+		Теперь в Документе есть несколько рабочих пространств.
+		It’s important to be aware of what workspace you are in, and how to get back and forth between them.
+		Важно понимать, в каком рабочем пространстве вы находитесь, и как переключаться между ними.
+		The easiest way to see what workspace is active is at the top of the Document.
+		Самый простой способ увидеть, какое рабочее пространство активно, это посмотреть в верхней части документа.
+		Next to the Document name notice the workspace name.
+		Рядом с названием документа обратите внимание на название рабочего пространства.
+		You can also see the active workspace, by viewing the Versions and history graph.
+		Вы также можете увидеть активное рабочее пространство, просмотрев график версий и истории.
+		The active workspace is highlighted.
+		Активное рабочее пространство выделено.
+		
+		So how do you go back and forth between different workspaces?
+		Так как же переключаться между разными рабочими пространствами?
+		Simply left-click the branch you want to open.
+		Просто щелкните левой кнопкой мыши по ветке, которую хотите открыть.
+		
+		Notice, there are two views in the Version and history graph.
+		Обратите внимание, что в графе "Версия и история" есть два представления.
+		You may view All branches or view the Active branch only.
+		Вы можете просмотреть все ветки или только активную ветку.
+		This view displays all the changes and versions on the active branch, while the All branches view shows all changes and versions on all branches of the document.
+		В этом представлении отображаются все изменения и версии в активной ветке, тогда как представление "Все ветки" отображает все изменения и версии во всех ветках документа.
+		
+		The last thing to mention is branches are independent workspaces within the Document, so you can create a version in a branch the same way you could in the original workspace.
+		Последнее, о чем следует упомянуть, это то, что ветки — это независимые рабочие пространства внутри документа, поэтому вы можете создать версию в ветке так же, как и в исходном рабочем пространстве.
+		You can branch from an established version on any branch.
+		Вы можете создать ответвление от существующей версии в любой ветке.
+		
+		Branches allow you to try different design ideas or collaborate in an asynchronous fashion.
+		Ветви позволяют вам пробовать разные идеи дизайна или сотрудничать в асинхронном режиме.
+		Branches capture all the edits done in each workspace including changes, additions, and deletions.
+		Ветви фиксируют все правки, выполненные в каждой рабочей области, включая изменения, добавления и удаления.
+	
+	
