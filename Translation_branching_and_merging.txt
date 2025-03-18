@@ -196,4 +196,202 @@
 		Branches capture all the edits done in each workspace including changes, additions, and deletions.
 		Ветви фиксируют все правки, выполненные в каждой рабочей области, включая изменения, добавления и удаления.
 	
+	Exercise: Creating workspaces - Упражнение: Создание рабочих пространств
+	Create workspaces in a document - Создание рабочих пространств в документе
+		Goals - цели
+			- Branch to create several workspaces.
+				Ветка для создания нескольких рабочих пространств.
+			- Experiment with different prospect designs in each workspace.
+				Экспериментируйте с различными вариантами дизайна перспективных объектов в каждом рабочем пространстве.
+			- Review how to create and use versions.
+				Ознакомьтесь с тем, как создавать и использовать версии.
+		
+		Scenario - Сценарий
+		
+		You are a part of a team designing a Widget for our company’s client.
+		Вы являетесь частью команды, разрабатывающей виджет для клиента нашей компании.
+		Opening the Document in Step 1 reveals the current progress of the design.
+		Открытие документа на шаге 1 позволяет увидеть текущий ход выполнения проекта.
+		After a design review, our team decides to try a different approach.
+		После анализа проекта наша команда решает попробовать другой подход.
+		We want to remove the teeth and add a handle.
+		Мы хотим удалить зубцы и добавить ручку.
+		Our team is unsure of whether the client will like our new design approach, so we may need to revisit the teeth design later.
+		Наша команда не уверена, понравится ли клиенту наш новый подход к дизайну, поэтому нам, возможно, придется пересмотреть дизайн зубов позже.
 	
+		Step 1 - Шаг 1
+		
+		Open the Public Document Exercise: Creating Workspaces.
+		Открываем публичный документ "Упражнение: Создание рабочих пространств".
+		Select Make a copy to edit...
+		Выберите "Сделать копию" для редактирования...
+		This Document displays the progress that our team has made so far on the teeth design.
+		В этом документе отображен прогресс, достигнутый нашей командой на данный момент в проектировании зубов.
+		
+		Note: - Примечание: 
+		For the best learning experience, we recommend using two browser windows: one to follow this exercise and the other for working in Onshape.
+		Для лучшего обучения мы рекомендуем использовать два окна браузера: одно для выполнения этого упражнения, а другое — для работы в Onshape.
+		
+		Step 2 - Шаг 2
+		
+		We need to create the handle design in a different workspace so that the teeth design can easily be revisited later.
+		Нам необходимо создать дизайн ручки в другом рабочем пространстве, чтобы к дизайну зубцов можно было легко вернуться позже.
+		To do this, we will create a branch.
+		Для этого мы создадим ветку.
+		
+		Branches must be created from versions and this Document does have any versions yet, so first we will create a version.
+		Ветви должны создаваться из версий, а у этого документа пока нет версий, поэтому сначала мы создадим версию.
+		
+		Create a version of the Document and name it Teeth Design.
+		Создайте версию документа и назовите её "Teeth Design" ("Дизайн зубов").
+		
+		Step 3 - Шаг 3
+		
+		To create another workspace, open the Versions and history menu, right-click on the Teeth Design version and select Branch to create workspace…
+		Чтобы создать еще одно рабочее пространство, откройте меню "Версии и история", щелкните правой кнопкой мыши версию Teeth Design и выберите "Ветвь для создания рабочего пространства".
+		
+		Name the new workspace Handle Design.
+		Назовите новое рабочее пространство "Handle Design" ("Дизайн ручки").
+		
+		Select Create.
+		Выберите "Создать".
+		
+		Step 4 - Шаг 4
+		
+		Now we are ready to begin our handle design.
+		Теперь мы готовы приступить к проектированию ручки.
+		We will remove the teeth and add a handle.
+		Мы удалим зубцы и добавим ручку.
+		Remember, geometry is always edited in Part Studios.
+		Помните, геометрия всегда редактируется в Part Studios.
+		
+		Be sure that the new workspace, Handle Design, is active and navigate to the Part Studio.
+		Убедитесь, что новое рабочее пространство Handle Design активно, и перейдите в Part Studio.
+		
+		The active workspace will be highlighted in the Versions and history menu and the name will appear next to the Document name in the Document toolbar.
+		Активная рабочая область будет выделена в меню "Версии и история", а ее имя отобразится рядом с именем документа на панели инструментов "Документ".
+		
+		Step 5 - Шаг 5
+		
+		Our new design does not have teeth.
+		У нашего нового дизайна нет зубов.
+		
+		To remove the teeth geometry, delete the sketches and selected features shown.
+		Чтобы удалить геометрию зубьев, удалите показанные эскизы и выбранные элементы.
+		
+		Step 6 - Шаг 6
+		
+		Перевод текста на картинке:
+		The center of the construction circle is coincident to the origin.
+		Центр вспомогательной окружности совпадает с началом координат.
+		The center of the circle is coincident to the construction circle and horizontal to the origin.
+		Центр окружности совпадает с вспомогательной окружностью и горизонтален относительно начала координат.
+		
+		Next, we need to create a sketch for the handle.
+		Далее нам необходимо создать эскиз ручки.
+		
+		Create a new sketch on the top face of the widget.
+		Создайте новый эскиз на верхней поверхности виджета.
+		
+		Sketch the construction circle and regular circle shown.
+		Нарисуйте показанную вспомогательную окружность и нормальную окружность.
+		
+		Constrain and dimension the two circles as indicated.
+		Ограничьте и задайте размеры двух окружностей, как показано.
+		
+		Rename the sketch Handle Sketch and accept the sketch.
+		Переименуйте эскиз в Handle Sketch и примите эскиз.
+		
+		This sketch will be used to extrude a handle and cut a hole for the handle to fit into.
+		Этот эскиз будет использован для выдавливания ручки и вырезания отверстия, в которое она войдет.
+		
+		Step 7 - Шаг 7
+		
+		The sketch created in the previous step will be used twice.
+		Эскиз, созданный на предыдущем этапе, будет использован дважды.
+		First, we will use it to create the handle.
+		Сначала мы используем его для создания ручки.
+		
+		Select the extrude command and use the circle from the Handle Sketch as the profile to extrude.
+		Выберите команду выдавливания и используйте окружность из эскиза ручки в качестве профиля для выдавливания.
+		Be sure to create a new part.
+		Обязательно создайте новую деталь.
+		
+		Set the end types and depth as shown, being sure to check Second end position.
+		Установите типы концов и глубину, как показано на рисунке, обязательно отметив вторую конечную позицию.
+		
+		Rename the feature Handle Feature.
+		Переименуйте элемент в Handle Feature.
+		
+		Accept the feature and rename the new part Handle.
+		Примите элемент и переименуйте новую деталь в Handle.
+		
+		Step 8 - Шаг 8
+		
+		Now, we will use the the Handle Sketch again to cut a hole in the widget for the handle to fit into.
+		Теперь мы снова воспользуемся эскизом ручки, чтобы вырезать отверстие в виджете, в которое поместится ручка.
+		
+		Select the extrude feature and reuse the circle in the Handle Sketch as the extrude profile, this time removing material from the widget.
+		Выберите функцию выдавливания и повторно используйте круг в эскизе ручки в качестве профиля выдавливания, на этот раз удалив материал из виджета.
+		
+		Select the options shown.
+		Выберите показанные опций.
+		
+		Rename the feature Handle Hole.
+		Переименуйте элемент в  Handle Hole (Отверстие для ручки).
+		
+		Accept the feature.
+		Принять элемент.
+		
+		Notes: - Примечание: 
+		The view has been sectioned for clarity.
+		Для ясности вид разрезан.
+		
+		Step 9 - Шаг 9
+		
+		The assembly must be updated to include the new handle.
+		Сборку необходимо обновить, включив в нее новую ручку.
+		
+		Switch to the Widget Assembly and insert and mate the Handle with a fastened mate as shown.
+		Переключитесь на сборку виджета, вставьте и соедините ручку с закрепленной ответной частью, как показано на рисунке.
+		
+		Step 10 - Шаг 10
+		
+		The handle design is complete.
+		Дизайн ручки готов.
+		It is best practice to create a version of a workspace whenever you reach a significant design milestone.
+		Рекомендуется создавать версию рабочего пространства каждый раз, когда вы достигаете значимой вехи проектирования.
+		
+		Capture this design milestone on the Handle Design branch with a Version.
+		Запечатлейте этот этап проектирования в ветке Handle Design с помощью версии.
+		
+		Name the Version Handle Added.
+		Назовите версию Handle Added (Ручка добавлена).
+		
+		Step 11 - Шаг 11
+		
+		After reviewing both designs with our team, we decide to show our client the two options.
+		Рассмотрев оба варианта дизайна вместе с нашей командой, мы решили показать нашему клиенту два варианта.
+		Our client does not approve either design and asks us to create a third instead.
+		Наш клиент не одобряет ни один из дизайнов и просит нас разработать третий.
+		
+		Their new idea incorporates several holes in a circular pattern.
+		Их новая идея включает в себя несколько отверстий, расположенных по кругу.
+		Our client wants us to keep these two designs available just in case.
+		Наш клиент хочет, чтобы мы сохранили эти два дизайна на всякий случай.
+		Too bad we are charging a flat rate and not hourly!
+		Жаль, что мы взимаем фиксированную плату, а не почасовую!
+		
+		Another workspace needs to be created to validate the new design approach.
+		Необходимо создать еще одно рабочее пространство для проверки нового подхода к проектированию.
+		
+		Create another branch from the Handle Added version on the Handle Design branch.
+		Создайте еще одну ветку из версии Handle Added на ветке Handle Design.
+		
+		Name the new workspace Hole Pattern Design.
+		Назовите новое рабочее пространство Hole Pattern Design (Проектирование схемы отверстий).
+		
+		Select Create.
+		Выберите "Создать".
+		
+		
