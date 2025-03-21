@@ -394,4 +394,183 @@
 		Select Create.
 		Выберите "Создать".
 		
+		Step 12 - Шаг 12
+		
+		In the new branch, Hole Pattern Design, we need to change the geometry to begin the third design approach.
+		В новой ветке Hole Pattern Design (Проектирование схемы отверстий) нам необходимо изменить геометрию, чтобы начать третий подход к проектированию.
+		
+		In the Part Studio, delete the features creating the handle and the handle hole.
+		В студии деталей (Part Studio) удалите элементы, создающие ручку и отверстие для ручки.
+		
+		Do NOT delete the Handle Sketch.
+		НЕ удаляйте (Handle Sketch) эскиз ручки.
+		
+		Step 13 - Шаг 13
+		
+		We choose to reuse the Handle Sketch to create the holes needed, as to not redo unnecessary work.
+		Мы решили повторно использовать эскиз ручки для создания необходимых отверстий, чтобы не переделывать ненужную работу.
+		
+		Edit the Handle Sketch.
+		Отредактируйте (Handle Sketch) эскиз ручки.
+		
+		Rename the sketch Hole Sketch.
+		Переименуйте эскиз в (Hole Sketch) эскиз отверстия.
+		
+		Change the dimension of the circle to Ø15.
+		Измените размер круга на Ø15.
+		
+		Accept the change.
+		Примите изменения.
+		
+		Step 14 - Шаг 14
+		
+		To create the hole through the widget, add an extrude remove feature using the profile of the Hole Sketch with the options shown.
+		Чтобы создать отверстие через виджет, добавьте элемент удаление выдавливанием, используя профиль эскиза отверстия с показанными параметрами.
+		
+		Accept the feature.
+		Примите элемент.
+		
+		Step 15 - Шаг 15
+		
+		Перевод текста на картинке: 
+		Click this face for the Axis of pattern.
+		Щёлкните по этой грани, чтобы установить ось кругового шаблона.
+		
+		The design needs 15 holes in a circular pattern, equally spaced.
+		Для дизайна необходимо сделать 15 отверстий, расположенных по кругу и расположенных на равном расстоянии друг от друга.
+		We decide to use a circular face pattern to achieve this because it will yield the best performance for our Document.
+		Для достижения этой цели мы решили использовать круглый шаблон поверхности, поскольку он обеспечит наилучшую производительность для нашего документа.
+		
+		To create the other holes, select the circular pattern feature and choose the Face pattern type.
+		Чтобы создать другие отверстия, выберите элемент круговой шаблон и выберите тип шаблона "поверхность".
+		
+		Click on the face of the hole for the Faces to pattern selection.
+		Щёлкните по поверхности отверстия, чтобы выбрать "Поверхности для шаблона".
+		
+		Select the face indicated for the Axis of pattern.
+		Выберите поверхность, указанную для оси кругового шаблона.
+		
+		Change the instance count to 15 with equal spacing checked.
+		Измените количество экземпляров на 15 и установите галочку "Равный интервал".
+		
+		Accept the pattern.
+		Примите шаблон.
+		
+		Step 16 - Шаг 16
+		
+		The last thing we need to do to finish the design is make any necessary updates to the assembly.
+		Последнее, что нам осталось сделать для завершения проекта — внести необходимые изменения в сборку.
+		
+		Switch to the Widget Assembly and delete the Handle and the Fastened mate.
+		Переключитесь на сборку виджета и удалите ручку (Handle) и сопряжение "Закреплено" (Fastened).
+		
+		Step 17 - Шаг 17
+		
+		Now that we have reached an important point in our third design, it's time to create another version.
+		Теперь, когда мы достигли важной точки в нашем третьем проекте, пришло время создать еще одну версию.
+		
+		Create a version on the Hole Pattern Design branch.
+		Создайте версию в ветке Hole Pattern Design (Проектирование схемы отверстий).
+		
+		Name the Version Holes Added.
+		Назовите версию Holes Added (Отверстия добавлены).
+		
+		Step 18 - Шаг 18
+		
+		Let's recap.
+		Давайте подведем итоги.
+		We were able to create all three designs in a single Document using multiple Workspaces.
+		Нам удалось создать все три дизайна в одном документе, используя несколько рабочих пространств.
+		This allows us to examine the evolution of our designs all in one place, compare the different design options, and as we will learn in a future exercise, merge certain designs together.
+		Это позволяет нам изучить эволюцию наших проектов в одном месте, сравнить различные варианты проектов и, как мы научимся в следующем упражнении, объединить определенные проекты вместе.
+		
+		Continue to the next page to validate your Document.
+		Перейдите на следующую страницу, чтобы подтвердить свой документ.
+		
+		Completed Document
+		Завершённый документ
+		
+		Use the Public Document Completed Exercise: Creating Workspaces to review your workspaces and branches and compare them to how we made ours.
+		Используйте упражнение "Завершённый публичный документ: Создание рабочих областей", чтобы просмотреть свои рабочие области и ветви и сравнить их с тем, как мы создали свои.
+		
+02. Compare - Сравнение
+	Using compare - Использование сравнения
+		Key takeaways: - Ключевые моменты: 
+			- Use the compare tool to view the differences between two Part Studios.
+				Воспользуйтесь инструментом сравнения, чтобы увидеть различия между двумя Part Studios.
+			- The compare tool can also be used to compare what tabs of a Document have changed.
+				Инструмент сравнения также можно использовать для сравнения изменённых вкладок документа.
+			- The compare tool can be used between any two history entries, versions, workspaces, or any combination of these.
+				Инструмент сравнения можно использовать между любыми двумя записями истории, версиями, рабочими пространствами или любой их комбинацией.
+		
+		Transcript - Описание
+		
+		Next up let’s talk about the Compare tool in Onshape.
+		Далее давайте поговорим об инструменте "Сравнение" в Onshape.
+		The compare tool is useful to see differences between versions, changes in history, and even workspaces.
+		Инструмент сравнения полезен для просмотра различий между версиями, изменениями в истории и даже рабочими пространствами.
+		
+		For example, here is a rocker design and the current design should be compared to a version created some time ago.
+		Например, вот дизайн качалки, и текущий дизайн следует сравнить с версией, созданной некоторое время назад.
+		To do this, click the “Versions and History” icon in the toolbar.
+		Для этого нажмите значок "Версии и история" на панели инструментов.
+		Then right-click the version you want to compare and choose Compare.
+		Затем щелкните правой кнопкой мыши версию, которую хотите сравнить, и выберите "Сравнить".
+		Not only can you right-click on what you want to compare, but you can also use the Compare icon at the top of the Versions and History graph.
+		Вы можете не только щелкнуть правой кнопкой мыши по тому, что хотите сравнить, но и воспользоваться значком "Сравнить" в верхней части панели "Версии и история".
+		Click on the Compare icon then select the two entries to compare.
+		Нажмите на значок "Сравнить", затем выберите две записи для сравнения.
+		
+		The compare tool shows two things.
+		Инструмент сравнения показывает две вещи.
+		A list of everything that is different between the two tabs you are comparing and a graphic slider to show a visual of the differences.
+		Список всех различий между двумя сравниваемыми вкладками и графический слайдер для наглядной демонстрации различий.
+		When viewing the list of differences there are icons to indicate what’s different and what exists in one tab and not the other.
+		При просмотре списка различий есть значки, указывающие на то, что отличается и что присутствует на одной вкладке, но отсутствует на другой.
+		In this example, Sketch 1 is not the same between the two tabs being compared.
+		В этом примере Эскиз 1 не одинаков на двух сравниваемых вкладках.
+		This is shown with the not equals symbol in the comparison.
+		Это показано с помощью символа "не равно" при сравнении.
+		Also notice the features that exist in one tab and not the other.
+		Также обратите внимание на элементы, которые есть на одной вкладке, но отсутствуют на другой.
+		You can tell these by the less than greater than symbols.
+		Вы можете отличить их по символам "меньше" и "больше".
+		
+		The list comparison breaks down the differences even further.
+		Сравнение списков еще больше выявляет различия.
+		Select one of the features from the list, you can see exactly what is different at the bottom.
+		Выберите один из элементов из списка, и внизу вы увидите, в чем именно заключаются отличия.
+		
+		There are some things to mention about the list based comparison.
+		Следует отметить несколько моментов относительно сравнения на основе списка.
+		First, Compare is currently only supported for Part Studios, you cannot compare assemblies or drawings.
+		Во-первых, в настоящее время функция сравнения поддерживается только для Part Studios, сравнивать сборки или чертежи нельзя.
+		Second, by default, the compare tool only shows what is different between the two entries you have chosen to compare.
+		Во-вторых, по умолчанию инструмент сравнения показывает только различия между двумя записями, которые вы выбрали для сравнения.
+		If you want to see every feature, uncheck the "Only Show Differences" checkbox.
+		Если вы хотите увидеть все элементы, снимите флажок "Показывать только различия".
+		The last thing to mention is you can compare Part Studios like we are here but you can also compare tabs to see which tabs have changed.
+		Последнее, о чем следует упомянуть, вы можете сравнивать Part Studios, как мы, но вы также можете сравнивать вкладки, чтобы увидеть, какие вкладки изменились.
+		This does not give a feature for feature breakdown, but gives you an idea of what tabs are different between the two entries you are comparing.
+		Это не дает возможности разбить данные по элементам, но даёт представление о том, какие вкладки различаются в двух сравниваемых записях.
+		
+		So we’ve discussed the list-based comparison.
+		Итак, мы обсудили сравнение на основе списка.
+		But as mentioned earlier, you can also view the differences graphically by grabbing the slider and dragging left to right or right to left.
+		Но, как упоминалось ранее, вы также можете просмотреть различия графически, схватив ползунок и перетащив его слева направо или справа налево.
+		You may switch the order by selecting Reverse compare.
+		Вы можете изменить порядок, выбрав Обратное сравнение.
+		
+		Once you’ve finished the comparison, you can exit out of the compare tool by left-clicking what you want to return to in the top left corner.
+		После завершения сравнения вы можете выйти из инструмента сравнения, щелкнув левой кнопкой мыши по тому, к чему вы хотите вернуться, в левом верхнем углу.
+		Here I am comparing V1 to Main and I want to return to Main, so I click Main.
+		Здесь я сравниваю V1 с Main и хочу вернуться к Main, поэтому нажимаю Main.
+		You may also select any entry in the Versions and history graph to exit compare and navigate to that entry.
+		Вы также можете выбрать любую запись в графе "Версии и история", чтобы выйти из сравнения и перейти к этой записи.
+		
+		You can compare many different types of entries from the document history.
+		Вы можете сравнивать различные типы записей из истории документа.
+		You can compare two versions, two changes, two workspaces, or any combination.
+		Вы можете сравнить две версии, два изменения, два рабочих пространства или любую их комбинацию.
+		
 		
