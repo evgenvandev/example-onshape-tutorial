@@ -573,4 +573,144 @@
 		You can compare two versions, two changes, two workspaces, or any combination.
 		Вы можете сравнить две версии, два изменения, два рабочих пространства или любую их комбинацию.
 		
+03. Merging - Объединение
+	Merging Changes to a Workspace - Объединение изменений в рабочее пространство
+		Key takeaways: - Ключевые моменты: 
+			- Merging uses "From → To" logic.
+				Объединение использует логику "От → До".
+				Merge changes FROM any workspace or version of one branch, TO a target workspace on another branch.
+				Объединение изменений из любого рабочего пространства или версии одной ветки, в целевое рабочее пространство на другой ветке.
+			- Always have the target workspace active.
+				Всегда целевое рабочее пространство активно.
+			- Selective merge provides three actions for each document tab with changes; Keep, Merge changes from both, and Replace.
+				Выборочное объединение предоставляет три действия для каждой вкладки документа с изменениями; Keep (Удержать), Merge changes from both (Объединение изменений от обоих) и Replace (Заменить).
+			- Keep retains the target workspace tab leaving it in its current condition.
+				Удержать - сохраняет вкладку целевого рабочего пространства, оставляя её в текущем состоянии.
+			- Merge changes from both, combines the two workspaces together.
+				Объединить изменения из обоих - объединяет два рабочих пространства вместе.
+			- Replace updates the target workspace with that of the source workspace.
+				Заменить - обновляет целевое рабочее пространство на исходное рабочее пространство.
+		
+		Transcript - Описание
+		
+		Onshape’s branching feature enables the creation of new workspaces for design experimentation without impacting other workspaces.
+		Функция ветвления Onshape позволяет создавать новые рабочие пространства для экспериментов с дизайном, не влияя на другие рабочие пространства.
+		Changes can be easily copied from one branch to another using Merge.
+		Изменения можно легко копировать из одной ветки в другую с помощью Merge (Объединение).
+		
+		This Document has two workspaces: the original design in the Main workspace and another workspace named Square Base.
+		В этом документе есть два рабочих пространства: исходный дизайн в основном рабочем пространстве и еще одно рабочее пространство под названием Square Base.
+		
+		The team wants to move forward with the Square Base.
+		Команда хочет двигаться дальше с Square Base.
+		With the Main workspace active, right-click on the Square Base workspace and select Merge into current workspace.
+		При активном основном рабочем пространстве щелкните правой кнопкой мыши рабочее пространство Square Base и выберите "Объединить с текущим рабочим пространством" (Merge into current workspace).
+		
+		The merge dialog is sorted into two sections: tabs with changes and tabs without changes.
+		Диалоговое окно объединение разделено на две части: вкладки с изменениями и вкладки без изменений.
+		At the top, you can select an overall merge strategy for changes.
+		В верхней части вы можете выбрать общую стратегию объединения изменений.
+		Below the Keep and Replace options, there is a link to Compare with base.
+		Под опциями "Сохранить" (Keep) и "Заменить" (Replace) находится ссылка "Сравнить с базой" (Compare with base).
+		This compares that branch with the state the document was in at the branch point.
+		Это сравнивает эту ветвь с состоянием, в котором находился документ в точке ветвления.
+		Keep retains the target workspace tab, leaving it in its current condition.
+		Сохранить (Keep) - сохраняет вкладку целевого рабочего пространства, оставляя ее в текущем состоянии.
+		This means no changes are made to that tab on the Main branch during this merge.
+		Это означает, что во время этого объединения никакие изменения на этой вкладке в основной ветке не производятся.
+		
+		Merge combines changes from both branches.
+		Объединение (Merge) объединяет изменения из обеих веток.
+		This option is only available for Part Studios and Assemblies, and only if both branches contain changes for a specific tab.
+		Эта опция доступна только для студий деталей (Part Studios) и сборок (Assemblies) и только в том случае, если обе ветви содержат изменения для определенной вкладки.
+		It is not available for Drawings or other tab types.
+		Она не доступна для чертежей и других типов.
+		In Part Studios, changes include creating, modifying, or deleting features, configuration inputs, materials, or appearances.
+		В студии деталей (Part Studios) изменения включают создание, изменение или удаление элементов, входных данных конфигурации, материалов или внешнего вида.
+		In assemblies, changes include modifying, adding, or removing components, Mate connectors, or configurations.
+		В сборках (Assemblies) изменения включают в себя изменение, добавление или удаление компонентов, соединителей Mate или конфигураций.
+		It is important to use this option carefully, as changes from different branches can be incompatible, causing errors.
+		Важно использовать эту опцию осторожно, так как изменения из разных веток могут быть несовместимы, что приведет к ошибкам.
+		
+		Replace updates the target with the source.
+		Заменить (Replace) обновляет цель источником.
+		If any changes exist in the target branch, they are completely overwritten.
+		Если в целевой ветке имеются какие-либо изменения, они полностью перезаписываются.
+		
+		Next to each changed tab, you can override the overall strategy with one specific to the tab.
+		Рядом с каждой изменённой вкладкой вы можете переопределить общую стратегию на стратегию, специфичную для этой вкладки.
+		Any tab with a differing merge strategy is indicated with yellow.
+		Любая вкладка с отличающейся стратегией объединения обозначена желтым цветом.
+		
+		Choose the overall merge strategy of Replace.
+		Выберите общую стратегию объединения "Заменить" (Replace).
+		This replaces the original base with the square one in the Main branch.
+		Это заменит исходную базу на квадратную в Главной ветке.
+		
+		Click the Show or Hide merges icon to toggle the visibility of merge lines.
+		Нажмите значок "Показать или скрыть линии объединения", чтобы включить или отключить видимость линий объединения.
+		
+		When activated, the graph depicts each merge operation visually.
+		При активации график визуально отображает каждую операцию объединения.
+		Merge lines connect each merge from its source to its target, clearly showing how changes are combined and propagated throughout the document’s history.
+		Линии объединения соединяют каждое объединение от его источника до цели, наглядно показывая, как изменения объединяются и распространяются по всей истории документа.
+		
+		If the changes to the design are unexpected or not desired, you can always undo the merge by restoring the workspace to the last action before the merge.
+		Если изменения в дизайне неожиданны или нежелательны, вы всегда можете отменить объединение, восстановив рабочее пространство до последнего действия перед объединением.
+		
+		This example showed a merge between two workspaces, but you can also merge a version from another branch into the current workspace using the same process.
+		В этом примере показано объединение двух рабочих пространств, но вы также можете объединить версию из другой ветки с текущим рабочим пространством, используя тот же процесс.
+		
+	Workspace Protection - Защита рабочего пространства
+		Key Takeaways: - Ключевые моменты: 
+			- Changing a workspace to a protected workspace
+				Изменение рабочего пространства на защищенное рабочее пространство.
+			- Making changes to a protected workspace
+				Внесение изменений в защищенное рабочее пространство.
+			- How to resolve merge issues with a protected workspace
+				Как решить проблемы объединения с защищенным рабочим пространством.
+			- Adjusting permissions to use workspace protection
+				Настройка разрешений на использование защиты рабочего пространства.
+		
+		Transcript - Описание
+		
+		Onshape enables users to protect workspaces from unintended changes.
+		Onshape позволяет пользователям защищать рабочие пространства от непреднамеренных изменений.
+		With workspace protections enabled, any alterations to a document must be carried out on a separate branch before being merged back into the protected workspace.
+		При включенной защите рабочего пространства любые изменения в документе должны выполняться в отдельной ветке, прежде чем они будут объединены обратно в защищенное рабочее пространство.
+		In this example, the team wants to lock the Main branch workspace and utilize separate branches to experiment with different nozzle designs.
+		В этом примере команда хочет заблокировать рабочее пространство основной ветви и использовать отдельные ветви для экспериментов с различными конструкциями горлышек.
+		Right-click the Main branch and select Workspace protections.
+		Щелкните правой кнопкой мыши по ветке Main и выберите пункт Workspace protections (Защита рабочего пространства).
+		
+		Check Enable workspace protection to protect that workspace.
+		Установите флажок "Включить защиту рабочего пространства", чтобы защитить это рабочее пространство.
+		Additional information about what changes are allowed and not allowed for protected branches is displayed in the dialog.
+		Дополнительная информация о том, какие изменения разрешены и не разрешены для защищенных веток, отображается в диалоговом окне.
+		Click Apply.
+		Нажмите "Применить".
+		Protected workspaces have a lock icon in the Versions and history panel, and display a message at the top when the workspace is active.
+		Защищенные рабочие пространства отмечены значком замка на панели "Версии и история", а также отображают сообщение в верхней части, когда рабочая область активна.
+		
+		To change a protected workspace, create a new branch to merge from.
+		Чтобы изменить защищённое рабочее пространство, создайте новую ветку для объединения.
+		Select a version on the protected workspace (or create one if needed), then create a branch from the selected version.
+		Выберите версию в защищённом рабочем пространстве (или создайте ее при необходимости), затем создайте ветку из выбранной версии.
+		Add the design changes in the new branch.
+		Добавьте изменения дизайна в новую ветку.
+		Then merge the new branch into the protected workspace.
+		Затем объедините новую ветку с защищённым рабочим пространством.
+		
+		When working with protected branches, the working branch must be kept up-to-date with the locked branch before a merge can occur.
+		При работе с защищенными ветвями рабочая ветвь должна быть обновлена ​​до заблокированной ветви, прежде чем можно будет выполнить объединение.
+		If the locked branch is out-of-date with the working branch, the Merge button is disabled, and a warning is displayed.
+		Если заблокированная ветка устарела по сравнению с рабочей веткой, кнопка "Объединить" становится неактивной и отображается предупреждение.
+		To resolve this issue, merge the protected branch into the working branch before attempting a merge back to the protected branch.
+		Чтобы решить эту проблему, выполните объединение защищенной ветки с рабочей веткой, прежде чем пытаться выполнить обратное объединение с защищенной веткой.
+		Users with edit access can enable or disable workspace protections.
+		Пользователи с правами редактирования могут включать или отключать защиту рабочего пространства.
+		
+		Enterprise customers can decide which users can enable and disable workspace protection using Global permissions.
+		Корпоративные клиенты могут решать, какие пользователи могут включать и отключать защиту рабочего пространства, используя глобальные разрешения.
+		
 		
